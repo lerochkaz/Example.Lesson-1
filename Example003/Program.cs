@@ -1,4 +1,6 @@
-﻿int numberA = 3;
-int numberB = 5;
-int result = numberA + numberB;
+﻿double numberA = new Random().Next(1, 10);
+Console.WriteLine(numberA);
+double numberB = new Random().Next(1, 10);
+Console.WriteLine(numberB);
+double result = numberA + numberB;
 Console.WriteLine(result);
